@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Catástrofe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Catástrofe.</h1>
+  <input type="image" src="music-icon.png" name="reproducir música" class="music-icon" id="music-icon" />
+  <audio id='music' loop=true><source src='Chopin.mp3'></audio>
+  
+  <div class="main" id='main'>
+
+    <div class="counter-div" id='counter_div'></div>
+    <div class="t" id='t'>
+      <span class="T" id='T'>toneladas</span>
+    </div>
+
+    <div class='CO2'><span>de CO<sub>2</sub></span></div>
+    <div class='ahora'><span>ahora mismo.</span></div>
+    
+    <div class="info" id="info">
+        <button class="info-button" id="infoButton" type="button"><span class="más-menos" id='másMenos'>Más</span> información</button>
+        <section class="info-section" id="infoSection">
+          <h2>Información</h2>
+          <h3>Música:</h3>
+          <p>Prelude in E-Minor de Chopin</p>
+          <h3>Información sobre emisiones totales en España</h3>
+          <p>El último <a class="dato" target="_blank" rel="noopener noreferrer" href='https://www.ine.es/consul/serie.do?d=true&s=DCEF41'>dato confirmado de emisiones totales en España del INE</a> es del 2019.</p>
+          <p>	325.242 millones de toneladas de CO<sub>2</sub></p>
+          <h3>¿Cómo se calcula el contador?</h3>
+          <p>En cada año hay 31.536.000 de segundos.</p>
+          <p>325242000 / 31536000 = 10,3133562 de toneladas de CO2 por segundo emitidas en España. </p>          
+          <p>Redondeando, 10 toneladas de CO2 por segundo.</p>
+        </section>
+    </div>
+  </div>  
+  <div class="pie nombre">
+    <a class="inline" href="https://joseangel-mad.github.io/joseangel/" target="_blank" 
+    rel="noopener noreferrer">José Ángel</a>
+  </div>
+  <footer>
+    <small>© José Ángel 2022</small>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
