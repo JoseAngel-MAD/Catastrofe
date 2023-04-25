@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Catastrophe.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <h1>Catastrophe.</h1>
+  <input type="image" src="music-icon.png" name="play-music" class="music-icon" id="music-icon" />
+  <audio id='music' loop=true><source src='Chopin.mp3'></audio>
+  
+  <div class="main" id='main'>
+
+    <div class="counter-div" id='counter_div'></div>
+    <div class="t" id='t'>
+      <span class="T" id='T'>tonnes</span>
+    </div>
+
+    <div class='CO2'><span>of CO<sub>2</sub></span></div>
+    <div class='ahora'><span>right now.</span></div>
+    
+    <div class="info" id="info">
+        <button class="info-button" id="infoButton" type="button"><span class="más-menos" id='másMenos'>More</span> information</button>
+        <section class="info-section" id="infoSection">
+          <h2>Information</h2>
+          <h3>Music:</h3>
+          <p>Chopin: Prelude in E-Minor.</p>
+          <h3>Information on total emisions of Spain</h3>
+          <p>The latest <a class="dato" target="_blank" rel="noopener noreferrer" href='https://www.ine.es/consul/serie.do?d=true&s=DCEF41'>confirmed data on total emisions in Spain from the INE</a> is from 2019.</p>
+          <p>325.242 millions of tonnes of CO<sub>2</sub></p>
+          <h3>How is the counter calculated?</h3>
+          <p>In a year there are 31.536.000 seconds.</p>
+          <p>325242000 / 31536000 = 10,3133562 of tonnes of CO2 per second emitted in Spain. </p>          
+          <p>Rounding up, 10 tonnes of CO2 per second.</p>
+        </section>
+    </div>
+  </div>  
+  <div class="pie nombre">
+    <a class="inline" href="https://joseangel-mad.github.io/joseangel/index-en" target="_blank" 
+    rel="noopener noreferrer">José Ángel</a>
+  </div>
+  <footer>
+<!--     <small>© José Ángel 2023</small> -->
+  </footer>
+<script src="script-en.js"></script>
+</body>
+</html>
